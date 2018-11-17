@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="includes/style.css">
+	<script src="includes/main.js" async></script>
+	<meta charset="utf-8">
+	<title>Guy Golpur</title>
+</head>
+
+<body>
+<!-- background-->
+	<div class="universe-wrapper">
+ 	<div class="stars-wrapper"></div>
+ 	<div class="planets-wrapper">
+    <div class="sun" id="sunnyA" onmouseover="sunnybg('visible')"></div>
+    <div class="mercury" id="merA" onmouseover="merbg('visible')"></div>
+    <div class="venus" id="venA" onmouseover="venbg('visible')"></div>
+    <div class="earth" id="earA" onmouseover="earbg('visible')"> </div>
+    <div class="mars" id="marA" onmouseover="marbg('visible')"> </div>
+    <div class="jupiter" id="jupA" onmouseover="jupbg('visible')"></div>
+    <div class="saturn" id="satA" onmouseover="satbg('visible')"></div>
+    <div class="uranus" id="uraA" onmouseover="urabg('visible')"></div>
+    <div class="neptune" id="nepA" onmouseover="nepbg('visible')"></div>
+    <div class="pluto" id="plutA" onmouseover="chbg('visible')"></div>
+    <div class="Mollie" id="mollA" onmouseover="mollbg('visible')"></div>
+  	</div>
+	</div>
+
+
+
+<!-- question -->
+	<form name="myForm" action="http://html5-book.co.il/teach/forms/get_form2.php" onsubmit="return validateForm(this)" method="get"
+	autocomplete="on">
+	<label id="plutB">Full earth name:<br><input type="text" name="fullName" maxlength="50" placeholder="Your name.."></label>
+	<label id="nepB">Intergalactic password:<br><input type="password" required name="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters" placeholder="Your password.."></label>
+	<label id="uraB">Cosmic E-Mail:<br><input type="email" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Your mail.."></label>
+	<label id="satB">Your Universe Wide Web:<br><input type="url" name="website" placeholder="Your website.."></label>
+	<label id="jupB">Human phone number:<br><input type="tel" required name="phone" placeholder="Your phone.."></label>
+	<label id="marB">Space weight<br><input type="number" name="coffee" max="150" value="0">Kg</label>
+	<label id="venB">How much do you love earth:<br> 0<input type="range" name="temper" value="50" min="0" max="100">100</label>
+	<label id="earB">Earth address:<br><input type="text" name="address" placeholder="What is your address?"></label>
+	<div id="sunnyB"><h3>Which planet do you wish to visit</h3>
+	<label>Mars:<input type="checkbox" name="interests[]" value="Mars"></label>
+	<label>Jupiter:<input type="checkbox" name="interests[]" value="Jupiter"></label>
+	<label>Pluto:<input type="checkbox" name="interests[]" value="Pluto"></label></div>
+	<div id="merB"><h3>Race</h3>
+	<label>Human<input type="radio" name="gender"></label>
+	<label>Alien<input type="radio" name="gender"></label></div>
+	<label id="mollB">age:<select type="number" name="age"><option value ="24">24</option><option value ="25" selected>25</option><option value ="26">26</option><option value ="27">27</option></select></label>
+
+
+
+
+
+	<input class="send" type="submit" name="submit">
+	</form>
+<!-- welcome message -->
+	<div>
+  		<p>W</p>
+ 		<p>e</p>
+  		<p>l</p>
+  		<p>c</p>
+ 		<p>o</p>
+ 		<p>m</p>
+  		<p>e</p>
+  		<p>&nbsp;</p>
+  		<p>t</p>
+  		<p>o</p>
+    	<p>&nbsp;</p>
+     	<p>s</p>
+      	<p>p</p>
+       	<p>a</p>
+       	<p>c</p>
+        <p>e</p>
+</div>
+
+<!-- <img id="starship" src="images/starship.png"> -->
+<p id="starship"></p>
+
+<!-- start here arrow -->
+<section class="startArrow">&#8674;</section>
+<p class="instruction">Start here,<br> and fill in each question before moving the mouse to the star on the left</p>
+
+</body>
+
+</html>

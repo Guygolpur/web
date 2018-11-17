@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="includes/style.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- addDeviceIcon -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- font-awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet">
+		<!-- JS and JQ -->
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="includes/main.js" async></script>
+    <!-- google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+
+
+
+
+		<title>BugLife</title>
+	</head>
+
+	<body>
+		<div id="wrapperMobile">
+
+			<header class="headerStep3">
+				<div class="background3"></div>
+				<section id="defineRadiusMap3A">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804" frameborder="0" style="border:0"></iframe>
+        </section>
+				<div class="logoStep3"></div>
+				<div class="processCircle3"></div>
+				<div class="processCircle3B"></div>
+				<a class="newSearchStep3" href="findDevice.html">New search</a>
+				<!-- navBar -->
+				<div class="nav3">
+             		<ul>
+              			<li><img src="images/golda.png" class="navLogo3"></li>
+              			<li class="profile3"><a href="#">profile</a></li>
+              			<li class="settings3"><a href="#">settings</a></li>
+              			<li class="sosSettings3"><a href="#">sos settings</a></li>
+              			<li class="purchase3"><a href="#">purchase</a></li>
+              			<li class="history3"><a href="#">history</a></li>
+              			<li class="log out3"><a href="#">log out</a></li>
+              			<li class="homeIcon3"><a href="index.html"> <i class="fas fa-home"></i></a></li>
+            		</ul>
+          		</div>
+			</header>
+
+			<footer class="footerStep3">
+				<p class="locate">Current distance: 100 meters</p>
+				<p class="locate">15 min</p>
+				<div class="faz bo"><div id="bellStep3" onclick="ring()"><i class="far fa-bell"></i></div></div>
+				<div class="faz bo" ><div id="lightOffStep3" onclick="light()"><i class="far fa-lightbulb"></i></div></div>
+				<div class="faz bo"><div class="carNevigateStep3"><i class="fas fa-car"></i></div></div>
+				<a href="findDeviceStep4.html"><div class="shareStep3"><i class="fas fa-share-alt"></i></div></a>
+			</footer>
+			<div class="share">
+				<button id="myBtn">
+    				<div class="fab no"></div>
+    				<div class="fab no"></div>
+    				<div class="fab no"></div>
+    				<div class="fab no"></div>
+    			</button>
+			</div>
+
+			<div class="moveAddStep3"><div class="moveAddDevice"><button>Add/Edit device</button></div></div>
+		</div>
+
+<!-- PopUp-for Desktop -->
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+  		<!-- Modal content -->
+  			<div class="modal-content">
+    			<div class="modal-header">
+     				<span class="close">&times;</span>
+      				<h2>Share Device Location!</h2>
+    			</div>
+    		<div class="modal-body">
+      			<p>Would You Like To Share Your Device Location With Others?</p>
+      			<button><a class="chooseShare" href="findDeviceStep5.html">Yes</a></button>
+      			<button><a class="chooseShare" href="findDeviceStep3.html">No</a></button>
+
+    		</div>
+    		<div class="modal-footer">
+      			<h3>BugLife</h3>
+    		</div>
+  			</div>
+		</div>
+
+
+				<!------------- Burger --------------->
+			<nav role="navigation">
+  				<div id="menuToggle3">
+    				<input type="checkbox" />
+    				<span></span>
+    				<span></span>
+    				<span></span>
+    				<ul id="menu3">
+    					<section class="blueAreaBurger3">
+    						<h3 class="HelloGolda3">Hello Golda!</h3>
+    						<div class="goldaPic3"></div>
+    					</section>
+    					<a href="index.html"><i class="fas fa-home"></i></a>
+      					<a href="#"><li>Profile</li></a>
+      					<a href="#"><li>Settings</li></a>
+      					<a href="#"><li>S.O.S Settings</li></a>
+      					<a href="#"><li>Purchase</li></a>
+      					<a href="#"><li>History</li></a>
+      					<a href="#"><li>Log out</li></a>
+    				</ul>
+  				</div>
+			</nav>
+
+	</body>
+</html>

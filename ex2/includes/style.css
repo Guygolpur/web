@@ -1,0 +1,185 @@
+
+*{margin: 0; padding: 0;}
+header, main, footer {
+	display: block;
+}
+
+body{
+	background-color: #f2f2f2;
+	width: 1600px;
+}
+
+main{
+	background-color: #ffffff;
+}
+header{
+	height: 99px;
+	width: 100%;
+}
+
+footer{
+	height: 90px;
+}
+	#logo {
+		background: url(../images/iconGG.png);
+		background-repeat: no-repeat;
+		display: inline-block;
+		padding-bottom: 31px;
+		margin-top: 31px;
+		margin-left: 252px;
+		padding-left: 50px;
+		padding-top: 12px;
+		margin-right: 69px;
+		width: 147px; /* Total click area on logo: 147px width + 50px padding-left = 197px; */
+		text-decoration: none;
+		color: #000000;
+		font-family: Lucida Console;
+		font-size: 22px;
+	}
+
+	#mainMenu a{
+		text-decoration: none;
+		color: #000000;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 22px;
+		letter-spacing: 5px;
+		font-weight: bold;
+	}
+
+	.optionOne {
+		margin-right: 15px;
+	}
+
+	.optionTwo {
+		margin-left: 27px;
+		margin-right: 11px;
+	}
+
+	.optionForm {
+		margin-left: 27px;
+		margin-right: 11px;
+	}
+
+	.optionThree {
+		margin-left: 28px;
+		margin-right: 21px;
+	}
+
+	.optionFour {
+		margin-left: 28px;
+	}
+	
+	.topMenu nav {
+		display: inline;
+	}
+
+	#mainMenu a:hover{
+ 		color: #cccccc;
+	}
+/* until here is the top Menu */
+
+	.mainArea {
+		text-align: center;
+		background-image: url(../images/cofeecomp.jpeg);
+		width:1600px;
+		height:800px;
+		color: #ffffff;
+	}
+
+	.mainArea h1 {
+		letter-spacing: 16px;
+		padding-top: 242px;
+		font-size: 88px;
+	}
+
+	.mainArea hr {
+   		display: block;
+   		height: 2px;
+   		width: 600px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	border: 0;
+    	border-top: 2px solid #00ace6;
+    	margin-top: 10px;
+	}
+
+	.mainArea p {
+		margin-top: 39px;
+		font-size: 15px;
+		margin-bottom: 85px;
+	}
+
+	.mainArea a {
+		border: 1px solid #00ace6;
+		padding: 21px;
+		font-size: 13px;
+		text-decoration:none;
+		color: #ffffff;
+	}
+
+
+	.nameParagraph {
+		height: 339px;
+		background-color: #f2f2f2;
+		text-align: center;
+	}
+
+	.nameParagraph h2 {
+
+		padding-top: 83px;
+		margin-bottom: 37px; 
+	}
+
+	.nameParagraph p {
+		color: #8c8c8c;
+		line-height: 32px;
+	}
+
+	.progSkills {
+		height: 637px;
+	}
+
+	.progSkills h2 {
+		padding-top: 76px;
+		margin-bottom: 61px;
+		text-align: center;
+
+	}
+	
+	.progSkills img {
+		width: 100px;
+		height: 100px;
+		margin-left: 355px;
+		vertical-align: middle;
+		margin-right: 32px;
+	}
+	.firstC {
+		margin-bottom: 20px;
+	}
+
+	.secondCPP {
+		margin-bottom: 30px;
+	}
+
+	.progSkills li {
+		list-style-type: none;
+	}
+
+	.myLinks {
+		margin-left: 251px;/*moving facebook etc. links to the right*/
+		/*margin-bottom: 25px; /*total footer height: 90px (top:25px + bottom:25px + fb etc. link: 40px =total height 90px); */
+		padding-top: 25px;
+	}
+
+	.myLinks img{
+		width: 40px;
+		height: 40px;
+		padding-right: 5px;
+		vertical-align: middle;
+	}
+
+	.myLinks h6{
+		display: inline;
+		padding-left: 10px;	/*total space between link to copy rights-15px(10 here+5 at ".myLinks img")*/
+		color: #8c8c8c;
+	}
